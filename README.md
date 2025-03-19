@@ -1,7 +1,7 @@
 # MAVLink Analysis and Telemetry Simulation
 MAVLink protocol analysis and telemetry simulation toolkit for UAV communications. For more detailed information, please refer to the documentation in the 'docs' folder.
 
-![Project Diagram](images/system_overview.png "System Overview")
+![Project Diagram](images/system_overview.PNG "System Overview")
 
 In the system depicted in the diagram above, data flows between the PX4 and QGroundControl (QGC) through a series of components and processes. The data from PX4 is received through the Data Bridge port, to MAVLink decoding and encoding application. This process utilizes shared memory accessible by both Python and C++ applications. The encoded MAVLink messages are then sent to the Data Bridge port, which forwards them to QGC.
 
