@@ -20,3 +20,4 @@ Additionally, the msg_sender.cpp component can be utilized to generate custom te
 ## Requirements
 - In this project, both QGroundControl and PX4 are installed and configured on the **Windows Subsystem for Linux (WSL)**. This is necessary because these tools are primarily designed to run on Linux environments.
 - In different configurations, it may be necessary to adjust the PX4 socket's sending address to ensure seamless integration between QGroundControl and our implementation.
+- This project does not include a unified CMake (or any other) build system at the moment. Each application or script needs to be compiled or run separately in its own terminal session.
